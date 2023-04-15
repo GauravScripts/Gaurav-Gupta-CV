@@ -112,7 +112,7 @@ function run_command() {
 
                 cmd_output.appendChild(container);
                 container.innerHTML = `<span style = "color:green">➜</span>
-          <span style = "color:cyan">[jai@root]</span> ` + input;
+          <span style = "color:cyan">[gaurav@root]</span> ` + input;
                 // cmd_output.appendChild(output);
                 cmd_list.push(input);
                 var element = document.getElementById("executed_commands");
@@ -122,7 +122,7 @@ function run_command() {
             } else {
                 var container = document.createElement("div");
                 container.innerHTML = `<span style = "color:green">➜</span>
-        <span style = "color:cyan">[jai@root]</span>` +
+        <span style = "color:cyan">[gaurav@root]</span>` +
                     `<br> <br> Available Themes: <br> <div style="color: #7F0055">${keys_themes}</div>` + "<br>";
                 document.getElementById("executed_commands").appendChild(container);
                 return false;
@@ -149,7 +149,7 @@ function run_command() {
 
     cmd_output.appendChild(container);
     container.innerHTML = `<span style = "color:green">➜</span>
-    <span style = "color:cyan">[jai@root]</span> ` + input;
+    <span style = "color:cyan">[gaurav@root]</span> ` + input;
     cmd_output.appendChild(output);
     cmd_list.push(input);
 
