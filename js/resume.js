@@ -11,8 +11,7 @@ var available_cmd = [
     "help",
     "clear",
     "ls",
-    "theme",
-    "publications",
+    "theme"
 ];
 
 var available_themes = {
@@ -203,6 +202,7 @@ function showTime() {
         h = 12;
     }
 
+
     if (h > 12) {
         h = h - 12;
         session = "PM";
@@ -229,7 +229,7 @@ showTime();
 
 
 function getAge() {
-    var dateString = "01/10/1997"
+    var dateString = "16/06/1999"
     var now = new Date();
     var today = new Date(now.getYear(), now.getMonth(), now.getDate());
 
