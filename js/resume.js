@@ -133,7 +133,7 @@ function run_command() {
             element = document.getElementById('error');
 
         if (input == 'download') {
-            window.open('resources/resume.pdf', '_blank');
+            window.open('resources/Gaurav%20Resume.pdf', '_blank');
         } else if (input == 'clear') {
             clear_console();
             return;
