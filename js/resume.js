@@ -4,7 +4,7 @@ var available_cmd = [
     "about",
     "education",
     "projects",
-    "experience",
+    "achievement",
     "skills",
     "contact",
     "download",
