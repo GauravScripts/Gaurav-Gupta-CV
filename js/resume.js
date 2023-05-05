@@ -229,7 +229,7 @@ showTime();
 
 
 function getAge() {
-    var dateString = "16/06/1999"
+    var dateString = "06/16/1999"
     var now = new Date();
     var today = new Date(now.getYear(), now.getMonth(), now.getDate());
 
